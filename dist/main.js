@@ -49,7 +49,7 @@
     var d = (() => {
         const e = document.createElement("nav"),
             n = document.createElement("h1");
-        n.classList.add("nav-logo"), n.innerText = "Somoyeopolis";
+        n.classList.add("nav-logo"), n.innerText = "Restaurant";
         const t = document.createElement("ul");
         t.classList.add("nav-list");
         const d = document.createElement("li"),
