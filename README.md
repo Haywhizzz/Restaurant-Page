@@ -3,7 +3,7 @@ A simple restaurant website made with ES6 using Webpack, to showcase DOM manipul
 
 ![screenshot](./images/Screenshot.png)
 
-View the app live [here](https://raw.githack.com/somoye123/Resturant-page/master/dist/index.html)
+View the app live [here](https://rawcdn.githack.com/Haywhizzz/Restaurant-Page/8742059864370c00a5ebae9c614849b409dfee2d/dist/index.html)
 
 ## Built With
 
