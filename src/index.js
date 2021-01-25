@@ -6,9 +6,9 @@ import Contact from './contact';
 const content = document.getElementById('content');
 
 const showPage = (section) => {
-    content.innerHTML = '';
-    content.appendChild(Navbar);
-    content.appendChild(section);
+  content.innerHTML = '';
+  content.appendChild(Navbar);
+  content.appendChild(section);
 };
 
 showPage(Home);
@@ -20,25 +20,25 @@ const menuBtn = document.getElementById('menu');
 const contactBtn = document.getElementById('contact');
 
 const switchPage = ({
-    target
+  target,
 }) => {
-    switch (target) {
-        case homeBtn:
-            showPage(Home);
-            break;
-        case menuBtn:
-            showPage(Menu);
-            break;
-        case bannerBtn:
-            showPage(Menu);
-            break;
-        case contactBtn:
-            showPage(Contact);
-            break;
-        default:
-            showPage(Home);
-            break;
-    }
+  switch (target) {
+    case homeBtn:
+      showPage(Home);
+      break;
+    case menuBtn:
+      showPage(Menu);
+      break;
+    case bannerBtn:
+      showPage(Menu);
+      break;
+    case contactBtn:
+      showPage(Contact);
+      break;
+    default:
+      showPage(Home);
+      break;
+  }
 };
 
 homeBtn.addEventListener('click', switchPage);
