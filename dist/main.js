@@ -81,37 +81,37 @@
         const a = document.createElement("div");
         a.classList.add("menu-img-1");
         const c = document.createElement("h5");
-        c.innerText = "Yam Pottage", d.appendChild(a), d.appendChild(c);
+        c.innerText = "Assorted Fried Rice and Chicken", d.appendChild(a), d.appendChild(c);
         const i = document.createElement("div");
         i.classList.add("menu-card");
         const l = document.createElement("div");
         l.classList.add("menu-img-2");
         const r = document.createElement("h5");
-        r.innerText = "Sandwich", i.appendChild(l), i.appendChild(r);
+        r.innerText = "Chicken Burger", i.appendChild(l), i.appendChild(r);
         const o = document.createElement("div");
         o.classList.add("menu-card");
         const s = document.createElement("div");
         s.classList.add("menu-img-3");
         const m = document.createElement("h5");
-        m.innerText = "Salad", o.appendChild(s), o.appendChild(m);
+        m.innerText = "Potato and Eggs", o.appendChild(s), o.appendChild(m);
         const u = document.createElement("div");
         u.classList.add("menu-card");
         const p = document.createElement("div");
         p.classList.add("menu-img-4");
         const E = document.createElement("h5");
-        E.innerText = "Egusi Soup", u.appendChild(p), u.appendChild(E);
+        E.innerText = "Sea Food", u.appendChild(p), u.appendChild(E);
         const h = document.createElement("div");
         h.classList.add("menu-card");
         const v = document.createElement("div");
         v.classList.add("menu-img-5");
         const C = document.createElement("h5");
-        C.innerText = "Spaghetti", h.appendChild(v), h.appendChild(C);
+        C.innerText = "Pasta", h.appendChild(v), h.appendChild(C);
         const f = document.createElement("div");
         f.classList.add("menu-card");
         const g = document.createElement("div");
         g.classList.add("menu-img-6");
         const b = document.createElement("h5");
-        return b.innerText = "Barbecued Fish", f.appendChild(g), f.appendChild(b), t.appendChild(d), t.appendChild(i), t.appendChild(o), t.appendChild(u), t.appendChild(h), t.appendChild(f), e.appendChild(n), e.appendChild(t), e
+        return b.innerText = "Cheese and Egg", f.appendChild(g), f.appendChild(b), t.appendChild(d), t.appendChild(i), t.appendChild(o), t.appendChild(u), t.appendChild(h), t.appendChild(f), e.appendChild(n), e.appendChild(t), e
     })();
     var i = (() => {
         const e = document.createElement("div");

@@ -30,7 +30,6 @@ nav {
     padding: 0.7rem 0 0 3rem;
     color: #044343;
     cursor: pointer;
-    text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
 }
 
 .nav-list {
@@ -44,7 +43,7 @@ nav {
 }
 
 .nav-items a {
-    color: #044343;
+    color: #c815ff;
     cursor: pointer;
 }
 
@@ -134,7 +133,7 @@ nav {
 .menu-header {
     font-size: 3rem;
     font-weight: bold;
-    color: #044343;
+    color: #c815ff;
 }
 
 .menu-header {
