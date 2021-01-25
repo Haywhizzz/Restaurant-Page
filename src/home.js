@@ -3,7 +3,7 @@ const Home = () => {
     banner.classList.add('bg-image');
 
     const bannerTitle = document.createElement('h1');
-    bannerTitle.innerText = 'We provide meals specially for you and excellent customer service';
+    bannerTitle.innerText = 'We provide meals specially for you and an excellent customer service';
 
     const button = document.createElement('button');
     button.classList.add('btn-menu');
