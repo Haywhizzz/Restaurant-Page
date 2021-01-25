@@ -68,7 +68,7 @@
         const n = document.createElement("h1");
         n.innerText = "We provide meals specially for you and excellent customer service";
         const t = document.createElement("button");
-        return t.classList.add("btn-menu"), t.innerText = "VIEW MENU", e.appendChild(n), e.appendChild(t), e
+        return t.classList.add("btn-menu"), t.innerText = "MENU", e.appendChild(n), e.appendChild(t), e
     })();
     var c = (() => {
         const e = document.createElement("div"),

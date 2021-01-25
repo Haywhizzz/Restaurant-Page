@@ -7,7 +7,7 @@ const Home = () => {
 
     const button = document.createElement('button');
     button.classList.add('btn-menu');
-    button.innerText = 'VIEW MENU';
+    button.innerText = 'MENU';
 
     banner.appendChild(bannerTitle);
     banner.appendChild(button);
