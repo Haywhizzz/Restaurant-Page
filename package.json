@@ -4,9 +4,9 @@
   "description": "A simple restaurant website made with ES6 using Webpack, to showcase DOM manipulation by dynamically generating the entire contents of the restaurant homepage using JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack -p",
-    "dev": "webpack-dev-server --open"
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open" // optional
   },
 
   "repository": {
