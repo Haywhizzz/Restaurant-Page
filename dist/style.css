@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e4e4e4;
+}
+
+.nav-logo {
+    padding: 0.7rem 0 0 3rem;
+    color: #044343;
+    cursor: pointer;
+}
+
+.nav-list {
+    display: flex;
+    margin-right: 1rem;
+}
+
+.nav-items {
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.nav-items a {
+    color: #c815ff;
+    cursor: pointer;
+}
+
+.btn-menu {
+    color: red;
+    font-weight: bold;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.nav-items a:hover {
+    color: red;
+}
+
+.bg-image {
+    padding: 15% 0 0 4%;
+    background:
+        linear-gradient(to left, rgba(5, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../images/home-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.bg-image h1 {
+    font-size: 3rem;
+    color: #fff;
+    max-width: 900px;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 1rem;
+    margin: 3rem auto;
+    width: 80%;
+}
+
+.menu-card {
+    width: 330px;
+    height: 358px;
+}
+
+.menu-img-1,
+.menu-img-2,
+.menu-img-3,
+.menu-img-4,
+.menu-img-5,
+.menu-img-6 {
+    height: 65%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menu-img-1 {
+    background-image: url("../images/menu-1.jpg");
+}
+
+.menu-img-2 {
+    background-image: url("../images/menu-2.jpg");
+}
+
+.menu-img-3 {
+    background-image: url("../images/menu-3.jpg");
+}
+
+.menu-img-4 {
+    background-image: url("../images/menu-4.jpg");
+}
+
+.menu-img-5 {
+    background-image: url("../images/menu-5.jpg");
+}
+
+.menu-img-6 {
+    background-image: url("../images/menu-6.jpg");
+}
+
+.contact-container {
+    text-align: center;
+}
+
+.contact-container h2,
+.menu-header {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #c815ff;
+}
+
+.menu-header {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group input {
+    width: 30%;
+    padding: 1rem;
+}
+
+.form-group textarea {
+    width: 50%;
+}
+
+.form-group .message {
+    padding-bottom: 10%;
+}

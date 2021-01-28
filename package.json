@@ -1,0 +1,30 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "A simple restaurant website made with ES6 using Webpack, to showcase DOM manipulation by dynamically generating the entire contents of the restaurant homepage using JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haywhizzz/Restaurant-Page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Haywhizzz/Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/Haywhizzz/Restaurant-Page#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "webpack": "^5.16.0",
+    "webpack-cli": "^4.4.0"
+  }
+}
